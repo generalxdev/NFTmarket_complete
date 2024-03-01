@@ -1,0 +1,60 @@
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.connectbtns {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  
+  .connectbtns .btn {
+    border: none;
+    text-align: left;
+    border-radius: 15px;
+    margin-top: 5px !important;
+    /* font-family: Poppins; */
+    padding: 20px 36px !important;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+  
+    font-size: 20px;
+    font-family: "BaseNeueMedium";
+    background-color: #2B3450;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  }
+  
+  .connectbtns img {
+    height: auto;
+    width: 50px;
+    margin-right: 10px;
+  }
+
+  .mintmodal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mintmodal h2{
+    color: white!important;
+    font-family: "BaseNeueMedium";
+    text-transform: uppercase;
+    letter-spacing: 3px;;
+  }
+  .mintmodal h3{
+    color: white!important;
+    font-family: "BaseNeueMedium";
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 1em;
+  }
+
+  .spinner-border {
+    display: block;
+    margin: 0 auto;
+    color: white;
+  }
